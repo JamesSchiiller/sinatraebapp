@@ -6,5 +6,5 @@ CMD ["ruby", "myapp.rb"]
 ADD . /code
 WORKDIR /code
 
-RUN gem install sinatra \
-    gem install thin
+RUN gem install sinatra
+RUN gem install thin
